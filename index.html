@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <title>Mi Primera WEB</title>
+   <script src="https://kit.fontawesome.com/bb6f56a68e.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+   <div class="container">
+       <header id="encabezado">
+           <a href="index.html"><i class="fa-solid fa-computer"></i></a>
+           <nav>
+               <input type="checkbox" id="check" />
+               <label for="check" class="checkbtn">
+                   <i class="fa-solid fa-plus"></i>
+               </label>
+               <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="#acercaDe">Acerca de mi</a></li>
+                   <li><a href="#Trabajos">Trabajos</a></li>
+                   <li><a href="#">Servicios</a></li>
+                   <li><a href="formulario.html">Contacto</a></li>
+               </ul>
+           </nav>
+       </header>
+       <main id="seccion-principal">
+           <section class="seccion-1" id="acercaDe">
+               <div class="acerca-de">
+                   <div class="texto">
+                       <h2>Acerca de mi</h2>
+                       <p>Bienvenido a mi página! Aquí, aprenderás más sobre mí</p>
+                       <p>
+                           Mi nombre es Lisandro, nací en Buenos Aires y vivo en Banfield.
+                       </p>
+                       <p>
+                           Me gusta todo lo referido a las tecnologias de la informacion.
+                       </p>
+                       <p>
+                           Estoy aqui para aprender sobre programacion <br />
+                       </p>
+                   </div>
+                   <div class="acerca-imagen">
+                       <img src="img/yo.jpg" title="imagen portada" class="imagen1" />
+                   </div> 
+               </div>
+           </section>
+           <section class="seccion-2">
+               <img src="img/Banner.jpg" title="imagen de carusell">
+           </section>
+           <section class="seccion-3" id="Trabajos">
+               <div class="titulo-s3">
+                   <h2>Trabajos</h2>
+               </div>               
+               <div class="tarjetas">
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Help Desk</h3>
+                           <p>
+                               Help Desk está disponible para proporcionar asistencia técnica inmediata a los usuarios finales. Resolvemos problemas comunes relacionados con hardware, software y redes, asegurando que tus operaciones diarias no se vean interrumpidas.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   <!-- Ventana emergente -->
+<div class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Help Desk</h3>
+      <p>
+        Aquí puedes agregar más detalles sobre el servicio de Help Desk.
+      </p>
+    </div>
+  </div>
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Gestión de Incidentes</h3>
+                           <p>
+                            Nos especializamos en la identificación, registro y resolución de incidentes que afectan la operación normal de tus servicios de TI. Nuestro objetivo es restaurar el servicio lo más rápido posible para minimizar el impacto en tu negocio.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Gestión de Problemas</h3>
+                           <p>
+                            Vamos más allá de la resolución de incidentes al identificar y eliminar las causas subyacentes de los problemas recurrentes. Nuestro enfoque preventivo asegura que los problemas futuros se minimicen, mejorando la estabilidad de tu infraestructura de TI.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Gestión de Cambios</h3>
+                           <p>
+                            Supervisamos y controlamos todos los cambios en tu infraestructura de TI para minimizar cualquier impacto negativo. Desde la planificación hasta la aprobación y el seguimiento, gestionamos cada cambio con precisión y cuidado.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Gestión de Activos y Configuración</h3>
+                           <p>
+                            Mantenemos un inventario detallado y actualizado de todos tus activos de TI y sus configuraciones. Esto nos permite gestionar eficientemente el ciclo de vida de tus activos y asegurar que tu infraestructura esté siempre documentada y controlada.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   <div class="tarjeta">
+                       <div class="imagen-tarjeta">
+                           <img src="img/bloques.png" />
+                       </div>
+                       <div class="texto-tarjeta">
+                           <h3>Monitoreo y Gestión de Redes</h3>
+                           <p>
+                            Nuestro servicio de monitoreo y gestión de redes garantiza el rendimiento y la disponibilidad óptima de tu red. Detectamos y resolvemos problemas antes de que afecten a tus usuarios, gestionando dispositivos de red, ancho de banda y seguridad.
+                           </p>
+                           <a href="#">Leer más</a>
+                       </div>
+                   </div>
+                   </div>
+               </div>               
+           </section>
+       </main>
+       <footer id="Contactos">
+           <div id="footer">
+               <a href="#"><i class="fa-solid fa-circle-arrow-up fixed"></i></a>
+               <h3>Redes</h3>
+               <nav>
+                   <ul>
+                       <li><a href="#"><i class="fa-brands fa-instagram" title="Instagram" style="margin-right: 5px;"></i>Instagram</a></li>
+                       <li><a href="#"><i class="fa-brands fa-facebook" title="Facebook" style="margin-right: 5px;"></i>Facebook</a></li>
+                       <li><a href="#"><i class="fa-brands fa-square-x-twitter" title="X-Twitter" style="margin-right: 5px;"></i>Twitter</a></li>
+                       <li><a href="#"><i class="fa-brands fa-linkedin" title="LinkedIn" style="margin-right: 5px;"></i>LinkedIn</a></li>
+                   </ul>
+               </nav>               
+           </div>           
+       </footer>
+   </div>    
+   <script src="./index.js"></script>
+</body>
+</html>
